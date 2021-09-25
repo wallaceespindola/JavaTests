@@ -435,7 +435,7 @@ public class TesteJava {
 		HttpClient httpclient = new DefaultHttpClient();
 		// HttpGet httpget = new HttpGet("http://s5700as85:7095/stats.jsp");
 		// HttpGet httpget = new
-		// HttpGet("http://ltp.petrobras.com.br/main/index.htm");
+		// HttpGet("http://ltp.ptbr.com.br/main/index.htm");
 
 		HttpGet httpGet = new HttpGet("http://s5700wb08/sso-servico-simulacao/servicoSimulador.svlt");
 		// HttpGet httpGet = new HttpGet("http://www.google.com.br");
@@ -523,7 +523,7 @@ public class TesteJava {
 		DefaultHttpClient httpclient = new DefaultHttpClient();
 		// HttpGet httpget = new HttpGet("http://s5700as85:7095/stats.jsp");
 		// HttpGet httpget = new
-		// HttpGet("http://ltp.petrobras.com.br/main/index.htm");
+		// HttpGet("http://ltp.ptbr.com.br/main/index.htm");
 		// HttpGet httpget = new HttpGet("http://www.a.com");
 
 		// HttpGet httpGet = new HttpGet("http://www.google.com.br/");
@@ -542,10 +542,10 @@ public class TesteJava {
 		// ProxySelector.getDefault());
 		// httpclient.setRoutePlanner(routePlanner);
 
-		// HttpHost proxy = new HttpHost("proxy.petrobras.com.br/inet-rj.pac",
+		// HttpHost proxy = new HttpHost("proxy.ptbr.com.br/inet-rj.pac",
 		// 80);
 
-		// HttpHost proxy = new HttpHost("inetstd.petrobras.com.br", 80,
+		// HttpHost proxy = new HttpHost("inetstd.ptbr.com.br", 80,
 		// "http");
 		// httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY,
 		// proxy);
@@ -649,7 +649,7 @@ public class TesteJava {
 		// new UsernamePasswordCredentials("username", "password"));
 
 		HttpHost targetHost = new HttpHost("www.google.com.br", 80, "http");
-		HttpHost proxy = new HttpHost("inet-rj.petrobras.com.br", 8080);
+		HttpHost proxy = new HttpHost("inet-rj.ptbr.com.br", 8080);
 
 		httpclient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
 
@@ -702,10 +702,10 @@ public class TesteJava {
 	public static void ClientExecuteProxy() {
 
 		// HttpHost proxy = new HttpHost("localhost", 7001, "http");
-		// HttpHost proxy = new HttpHost("inetstdrj.petrobras.com.br", 8080,
+		// HttpHost proxy = new HttpHost("inetstdrj.ptbr.com.br", 8080,
 		// "http");
-		// HttpHost proxy = new HttpHost("inetstd.petrobras.com.br");
-		HttpHost proxy = new HttpHost("proxy.petrobras.com.br", 80);
+		// HttpHost proxy = new HttpHost("inetstd.ptbr.com.br");
+		HttpHost proxy = new HttpHost("proxy.ptbr.com.br", 80);
 
 		DefaultHttpClient httpclient = new DefaultHttpClient();
 		try {
